@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/*Lo que hicimos por aca fue abstraer una fuente por defecto de Google fonts con el fin de que si un usuario en un 
+navegador no tiene una fuente predefinida, se muestre la fuente que nosotros seleccionamos por defecto
+en google fonts*/
