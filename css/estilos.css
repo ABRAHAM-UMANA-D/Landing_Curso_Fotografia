@@ -14,7 +14,7 @@ body{
 navegador no tiene una fuente predefinida, se muestre la fuente que nosotros seleccionamos por defecto
 en google fonts*/
 
-.container{
+.container {
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
@@ -24,7 +24,7 @@ en google fonts*/
     principal de la pagina y el borde del sitio, un espaciado de 100px de altura y de ancho 0*/
 }
 
-.hero{
+.hero {
    width: 100%;
    height: 10vh;
    min-height: 600px;
@@ -34,7 +34,7 @@ en google fonts*/
    grid-template-rows: 100px 1fr;
 }
 
-.hero::before{
+.hero::before {
     content: "";
     position:absolute;
     top:0;
@@ -47,7 +47,7 @@ en google fonts*/
     background-image: linear-gradient(180deg, #0000008c 0%,#0000008c 100%), url('../images/computer.jpg');
 }
 
-.nav{
+.nav {
  --padding-container:0;
 
 }
