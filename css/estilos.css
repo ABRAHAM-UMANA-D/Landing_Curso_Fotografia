@@ -202,7 +202,7 @@ a cuando estemos haciendo el display en un movil*/
     display: block;
 }
 
-.knowledge_paragraph {
+.knowledge_paragrah {
     line-height: 1.7;
     margin-bottom: 15px;
 }
@@ -297,4 +297,64 @@ a cuando estemos haciendo el display en un movil*/
     --color-items: #fff;
 }
 
-/*Modificacion al apartado de testimonios*/
+/*Modificacion al apartado de slider de testimonios*/
+.testimony {
+    background-color: #e5e5f7;
+}
+
+.testimony_container {
+    display: grid;
+    grid-template-columns: 50px 1fr 50px;
+    gap: 1em;
+    align-items: center;
+}
+
+.testimony_arrow {
+    width: 90%;
+    cursor: pointer;
+}
+
+.testimony_body {
+    display: grid;
+    grid-template-columns: 1fr max-content;
+    justify-content: space-between;
+    /*Esta propiedad sirve para que el contenido de la seccion se vaya hasta las 
+    esquinas y se centre verticalmente*/
+    align-items: center;
+    gap: 2em;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    opacity: 0;
+    pointer-events: none;
+    /*Propiedad que usa para que los elementos no puedan ser seleccionados con el mouse
+    esto obliga a que la unica manera de deslizar es darle clic a la flecha derecha o izquierda*/
+}
+
+.testimony_texts {
+    max-width: 700px;
+}
+
+.testimony_img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: 50% 30%;
+    /*Esta propiedad ajusta la imagen un 50% horizontal y 30% vertical*/
+}
+
+.testimony_course {
+    background-color: royalblue;
+    color: #fff;
+    display: inline-block;
+    padding: 5px;
+}
+
+.testimony_body--show {
+    pointer-events: unset;
+    opacity: 1;
+    transition: opacity 1.5s ease-in-out;
+}
+
+/*A nivel del apartado de testimonios, en el slider, unicamente se vera el testimonio body show de la seccion 1*/
+/*Luego con javascript, le daremos la verdadera funcionalidad al slider*/
