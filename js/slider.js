@@ -16,7 +16,7 @@
     const cambio_de_posicion = (add) => {
 
         const testimonioActual = document.querySelector('.testimony_body--show').dataset.id;
-        
+
         /*Una constante que va a seleccionar especificamente al testimonio de la seccion 1 el cual es
         el testimony_body--show y va a obtener el dataset de ese testimonio de la seccion uno, que es el ID = 1*/
 
