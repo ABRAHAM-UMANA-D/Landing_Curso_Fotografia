@@ -13,6 +13,7 @@
         cambio_de_posicion(-1);
     });
 
+
     const cambio_de_posicion = (add) => {
 
         const testimonioActual = document.querySelector('.testimony_body--show').dataset.id;
@@ -20,7 +21,8 @@
         /*Una constante que va a seleccionar especificamente al testimonio de la seccion 1 el cual es
         el testimony_body--show y va a obtener el dataset de ese testimonio de la seccion uno, que es el ID = 1*/
 
-        valor = Number(testimonioActual);//Aqui estamos posicionando a valor sobre el testimonio numero 1
+        valor = Number(testimonioActual);
+        //Aqui estamos posicionando a valor sobre el testimonio numero 1
         valor += add;// A la variable que estaba en el testimonio actual le vamos a sumar los avances que hagamos sobre los elementos en el slider
 
         //elements.lengt = Maximo de elementos en el slider
