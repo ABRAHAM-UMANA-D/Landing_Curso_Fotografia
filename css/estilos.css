@@ -556,6 +556,7 @@ pueda ser resposive y pueda verse bien a nivel de dispositivos moviles*/
         --show: block;
         opacity: 1;
         pointer-events: unset;
+
     }
 
 }

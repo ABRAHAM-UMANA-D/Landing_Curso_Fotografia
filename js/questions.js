@@ -5,8 +5,6 @@
     const titleQuestions = [...document.querySelectorAll('.questions_title')];
     //... y los corchetes, hacen que lo que queramos recibir, se convierta en un array en javascript
 
-    console.log(titleQuestions); //Verificamos que verdaderamente el sistema este recibiendo los titulos de la preguntas en un array
-
     titleQuestions.forEach(question => {
 
 
