@@ -13,7 +13,6 @@
         cambio_de_posicion(-1);
     });
 
-
     const cambio_de_posicion = (add) => {
 
         const testimonioActual = document.querySelector('.testimony_body--show').dataset.id;

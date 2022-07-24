@@ -1,15 +1,17 @@
 (function () {
-
-    const BotonAbrir = document.querySelector('.nav_menu');
-    const BotonCerrar = document.querySelector('.nav_close');
+    const openButton = document.querySelector('.nav_menu');
     const menu = document.querySelector('.nav_link');
+    const closeMenu = document.querySelector('.nav_close');
 
-    BotonAbrir.addEventListener('click', () => {
-        menu.classList.add('nav_link--menu');
+    openButton.addEventListener('click', () => {
+        menu.classList.add('nav_link--show');
     });
 
-    BotonCerrar.addEventListener('click', () => {
-        menu.classList.remove('nav_link--menu');
+    closeMenu.addEventListener('click', () => {
+        menu.classList.remove('nav_link--show');
     });
-    
+
+
+
+
 })();
