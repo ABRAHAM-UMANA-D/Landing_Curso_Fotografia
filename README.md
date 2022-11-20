@@ -1,2 +1,2 @@
-Landing page project, focused on the sale of online courses in the north of photography.
-Main web page developed in HTML, CSS and JS
+Landing page, sales funnel type, where a photographer can promote a photography course as a digital product.
+Does not include link with payment gateway.
